@@ -1,0 +1,50 @@
+.vj_footer{
+  background-color: #1d2124;
+  &__wrapper{
+    padding: 45px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &>h5{
+      color: $primary-text-color;
+    }
+  }
+  &__contact-i{
+    display: flex;
+    margin-top: 15px;
+    & > button {
+      margin: 5px;
+      height: 50px;
+      width: 50px;
+      border-radius: 100%;
+      background-color: $color-dark;
+      background-repeat: no-repeat;
+      background-position: center center;
+      padding: 15px;
+      box-sizing: padding-box;
+      &:hover{
+        background-color: $primary-corntrast-color;
+      }
+    }
+    &>button:first-child{
+      background-image: url("/images/sprite/i--fb.svg");
+    }
+
+    &>button:nth-child(2){
+      background-image: url("/images/sprite/i-Ln.svg");
+    /*
+      height: 50px;
+      width: 50px;
+      border-radius: 100%;
+      background-color: $color-dark;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: ;
+      padding: 15px;
+      box-sizing: padding-box;
+      &:hover{
+        background-color: $primary-corntrast-color;
+      }*/
+    }
+  }
+}

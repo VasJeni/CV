@@ -1,0 +1,10 @@
+@keyframes border-contrast-blur {
+  from {
+    box-shadow: 0 0 15px 2px $primary-corntrast-color;
+  }
+
+  to {
+    box-shadow: 0 0 0 2px #2ecc71;
+    color: $primary-corntrast-color;
+  }
+}

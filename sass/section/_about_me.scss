@@ -61,18 +61,22 @@
         height: 100px;
       }
       &> .icon-web_design{
-        @include sprite($planet);
+        @include sprite($humans);
+        background-image: url("../images/sprite.png");
       }
       &> .icon-g_design{
         @include sprite($pancil);
+        background-image: url("../images/sprite.png");
 
       }
       &> .icon-o_marketing{
         @include sprite($humans);
+        background-image: url("../images/sprite.png");
 
       }
       &> .icon-seo{
         @include sprite($seo);
+        background-image: url("../images/sprite.png");
       }
   }
   }
