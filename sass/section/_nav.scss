@@ -18,8 +18,8 @@
         color: $Primary-color-white;
         animation-name: border-contrast-blur;
         animation-duration: 0.2s;
-        box-shadow: 0 0 0 2px #2ecc71;
         animation-fill-mode: forwards;
+
       }
     }
   }
@@ -28,8 +28,4 @@
   width: 60px;
   height: 60px;
   background: red;
-}
-.test{
-  width: 100px;
-  background-color: #1d2124;
 }
