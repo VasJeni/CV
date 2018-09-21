@@ -1,0 +1,44 @@
+.vj_works{
+  background-color: $Primary-color-white;
+  padding: 40px 0;
+  &__wrapper{
+    display: flex;
+    justify-content: space-around;
+  }
+  &__description,
+  &__list{
+    width: 45%;
+    text-align: left;
+    margin-top: 30px;
+  }
+  &__description{
+    & > h3{
+      @extend %font-bold;
+      display: inline-block;
+      font-weight: 600;
+      color: $primary-text-color;
+      font-size: 18px;
+    }
+    & > span {
+      display: block;
+      margin:30px 0;
+      color: $primary-text-color;
+    }
+  }
+  &__item{
+    color: $primary-text-color;
+    & > h4{
+      display: block;
+      margin-top: 30px;
+      @extend %font-bold;
+      font-weight: 600;
+      font-size: 18px;
+    }
+    & > span {
+      display: block;
+      margin-top: 30px;
+      @extend %font-normal;
+
+    }
+  }
+}

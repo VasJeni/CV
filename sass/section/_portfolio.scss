@@ -1,0 +1,23 @@
+.vj_portfolio{
+  padding: 40px;
+  background-color: $Primary-color-white;
+  &__wrapper{
+    & > h3{
+      @extend %font-bold;
+      font-weight: 600;
+      color: $primary-text-color;
+      font-size: 18px;
+    }
+    &> p {
+      @extend %font-normal;
+      color: $primary-text-color;
+      margin: 40px auto;
+    }
+  }
+  &__list{
+    width: 80%;
+    background-color: #1d2124;
+    height: 100px;
+    margin: 0 auto;
+  }
+}

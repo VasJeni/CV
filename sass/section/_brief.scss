@@ -1,0 +1,28 @@
+.vj__brief{
+  background-color: $Primary-color-white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  &__list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+  &__item{
+    width: 30%;
+    & > header{
+      @extend %font-bold;
+      font-size: 18px;
+      font-weight: 600;
+      color: $primary-text-color;
+    }
+    & > span{
+      display: block;
+      margin-top: 30px;
+      @extend %font-normal;
+      font-size: 16px;
+      font-weight: 400;
+      color:  $primary-text-color;
+    }
+  }
+}

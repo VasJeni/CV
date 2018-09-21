@@ -1,0 +1,28 @@
+.vj__nav{
+  background-color: $color-dark;
+  &__list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    & > a{
+      color: $Primary-color-white;
+      @extend %font-bold;
+      font-weight: 400;
+      font-size: 18px;
+      text-transform: uppercase;
+      margin: 30px 15px;
+      padding: 5px 10px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      &:hover{
+        color: $Primary-color-white;
+        box-shadow: 0 0 0 2px #2ecc71;
+      }
+    }
+  }
+}
+.logo{
+  width: 60px;
+  height: 60px;
+  background: red;
+}

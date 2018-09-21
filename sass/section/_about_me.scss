@@ -1,0 +1,79 @@
+.vj_about-me{
+  background-color: $color-light-grey;
+  & > .container{
+    display: flex;
+    flex-direction: row;
+  }
+  &--title{
+    padding-top: 50px;
+    @extend %font-bold;
+    font-weight: 600;
+    font-size: 24px;
+    color: $primary-text-color;
+    background-color: $color-light-grey;
+
+  }
+  &__bio{
+    width: 66%;
+    margin-left: 5%;
+    text-align: left;
+    background-color: $color-light-grey;
+    & > span {
+      width: 100%;
+      padding-top: 30px;
+      display: block;
+      background-color: $color-light-grey;
+      color: $primary-text-color;
+    }
+  }
+  &--item{
+    text-align: left;
+    padding: 0 10px;
+    width: 70%;
+    background-color: $color-light-grey;
+
+    & h5{
+      @extend %font-bold;
+      font-size: 18px;
+      color: $primary-text-color;
+      font-weight: 600;
+    }
+
+    & > span{
+      display: block;
+      margin-top: 10px;
+      @extend %font-normal;
+      font-size: 16px;
+      color: $primary-text-color;
+    }
+  }
+  &--list{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    & > figure {
+      margin-top: 30px;
+      display: flex;
+      width: 40%;
+      & > img{
+        width: 100px;
+        height: 100px;
+      }
+      &> .icon-web_design{
+        @include sprite($planet);
+      }
+      &> .icon-g_design{
+        @include sprite($pancil);
+
+      }
+      &> .icon-o_marketing{
+        @include sprite($humans);
+
+      }
+      &> .icon-seo{
+        @include sprite($seo);
+      }
+  }
+  }
+}

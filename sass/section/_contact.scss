@@ -1,0 +1,66 @@
+.vj_contacts{
+  background-color: #252e30;
+  &__my,
+  &__form{
+    width: 45%;
+    padding-top: 30px;
+  }
+  &__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  &__my{
+    color: $Primary-color-white;
+    text-align: left;
+
+    & > h3{
+      @extend %font-bold;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    & > p{
+      margin: 30px 0;
+      line-height: 1.2em;
+      @extend %font-normal;
+      font-size: 16px;
+    }
+  }
+  &__form {
+    & > form {
+     & > label {
+       width: 100%;
+       & > span {
+         text-align: left;
+         display: block;
+         line-height: 2em;
+         color: $Primary-color-white;
+       }
+       & > input {
+         display: block;
+         margin-left: 0;
+         background-color: #4b5456;
+         line-height: 2em;
+       }
+       & > textarea {
+         background-color: #4b5456;
+         display: block;
+        }
+
+      }
+      & > button{
+        display: block;
+        margin: 20px 0 ;
+        background-color: $primary-corntrast-color;
+        border-color: $color-dark;
+        color: $color-dark;
+        @extend %font-bold;
+        font-weight: 600;
+        font-size: 16px;
+        &:hover{
+          color: $Primary-color-white;
+        }
+      }
+  }
+ }
+}

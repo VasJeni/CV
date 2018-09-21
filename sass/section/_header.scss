@@ -1,0 +1,25 @@
+.vj{
+  &__header{
+    background-image: url("../img/header/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 460px;
+    padding-bottom: 300px;
+    background-attachment: fixed;
+
+    &__button{
+      color: white;
+      margin-top: 40px;
+      font-weight: 800;
+    }
+    & > .container{
+     &  > h1 {
+        color: $Primary-color-white;
+        border-bottom: 2px solid #fffce1;;
+        border-top: 2px solid #fffce1;
+       @extend %font-bold;
+      }
+    }
+  }
+}

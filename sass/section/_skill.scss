@@ -1,0 +1,77 @@
+.vj__skill{
+  background-color: $Primary-color-white;
+  padding: 50px 0;
+  & > .container{
+    display: flex;
+    justify-content: space-around;
+/*    flex-direction: row;*/
+  }
+  &-description{
+    width: 45%;
+    text-align: left;
+
+    & > h3{
+      @extend %font-bold;
+      font-size: 24px;
+      color: $primary-text-color;
+      font-weight: 600;
+    }
+    & > span{
+      @extend %font-normal;
+      padding: 20px 0;
+      display: block;
+      font-size: 16px;
+      color: $primary-text-color;
+    }
+    & > button{
+      @extend %font-bold;
+      font-size: 18px;
+      background-color: $primary-corntrast-color;
+      color: $primary-text-color;
+      border: 2px solid $primary-text-color;
+      font-weight: 800;
+      &:hover{
+        color: $Primary-color-white;
+      }
+    }
+  }
+  &-list{
+    color: $primary-text-color;
+    width: 45%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  &-ps > .scale,
+  &-ill > .scale,
+  &-html > .scale,
+  &-php > .scale{
+    height: 20px;
+    width: 100%;
+    background-color: $primary-text-color;
+    margin: 20px 0;
+    position: relative;
+    &:before{
+      display: block;
+      position: absolute;
+      width: 65%;
+      height: 100%;
+      background-color: $primary-corntrast-color;
+      z-index: 2;
+      content: "";
+    }
+  }
+  &-ps > .scale:before{
+    width: 75%;
+  }
+  &-ill > .scale:before{
+    width: 50%;
+  }
+  &-html > .scale:before{
+    width: 60%;
+  }
+  &-php > .scale:before{
+    width: 25%;
+  }
+}

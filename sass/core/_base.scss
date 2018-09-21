@@ -1,0 +1,40 @@
+//variables
+$Primary-color-white: #fffce1;
+$primary-text-color: #495057;
+$primary-corntrast-color : #2ecc71;
+$color-light-grey : #f2f2f1;
+$color-dark : #252e30;
+
+.clearfix{
+  display: table;
+  content: "";
+  overflow: hidden;
+}
+//extended
+%font-bold{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+}
+%font-normal{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+button{
+  border: 2px solid $Primary-color-white;
+  padding: 20px 30px;
+  border-radius: 15px;
+  @extend %font-normal;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  &:hover{
+    background-color: $Primary-color-white;
+    color: $primary-text-color;
+  }
+}
+.test{
+  width: 100px;
+  height: 100px;
+  background-color: red
+}
