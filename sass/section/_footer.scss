@@ -27,24 +27,11 @@
       }
     }
     &>button:first-child{
-      background-image: url("/images/sprite/i--fb.svg");
+      background-image: url("../images/sprite/i--fb.svg");
     }
 
     &>button:nth-child(2){
-      background-image: url("/images/sprite/i-Ln.svg");
-    /*
-      height: 50px;
-      width: 50px;
-      border-radius: 100%;
-      background-color: $color-dark;
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: ;
-      padding: 15px;
-      box-sizing: padding-box;
-      &:hover{
-        background-color: $primary-corntrast-color;
-      }*/
+      background-image: url("../images/sprite/i-Ln.svg");
     }
   }
 }
