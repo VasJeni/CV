@@ -4,7 +4,18 @@
   }
 
   to {
-    box-shadow: 0 0 0 2px #2ecc71;
+    box-shadow: 0 0 0 0 #2ecc71;
     color: $primary-corntrast-color;
+    border-color: $primary-corntrast-color;
+    background-color: inherit;
+  }
+}
+@keyframes slide-left {
+  from{
+    margin-right: -1000px;
+  }
+
+  to{
+    margin-right: 0;
   }
 }

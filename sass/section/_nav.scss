@@ -4,6 +4,10 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    animation-name: slide-left;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
     & > a{
       color: $Primary-color-white;
       @extend %font-bold;
@@ -14,12 +18,12 @@
       padding: 5px 10px;
       box-sizing: border-box;
       border-radius: 5px;
+      border: 2px solid $color-dark;
       &:hover{
         color: $Primary-color-white;
         animation-name: border-contrast-blur;
         animation-duration: 0.2s;
         animation-fill-mode: forwards;
-
       }
     }
   }

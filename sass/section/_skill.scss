@@ -32,6 +32,9 @@
       font-weight: 800;
       &:hover{
         color: $Primary-color-white;
+        animation-name: border-contrast-blur;
+        animation-duration: 0.2s;
+        animation-fill-mode: forwards;
       }
     }
   }
@@ -50,7 +53,7 @@
     height: 20px;
     width: 100%;
     background-color: $primary-text-color;
-    margin: 20px 0;
+    margin: 5px 0 25px 0;
     position: relative;
     &:before{
       display: block;
@@ -63,15 +66,23 @@
     }
   }
   &-ps > .scale:before{
-    width: 75%;
+    width: 70%;
   }
   &-ill > .scale:before{
     width: 50%;
   }
   &-html > .scale:before{
-    width: 60%;
+    width: 80%;
   }
   &-php > .scale:before{
-    width: 25%;
+    width: 20%;
+  }
+  &-ps > p,
+  &-ill > p,
+  &-html > p,
+  &-php > p {
+    @extend %font-normal;
+    font-size: 14px;
+
   }
 }

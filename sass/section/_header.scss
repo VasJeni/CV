@@ -9,14 +9,15 @@
     background-attachment: fixed;
 
     &__button{
-      color: white;
+      color: $Primary-color-white;
       margin-top: 40px;
       font-weight: 800;
+      border-color: $Primary-color-white;
       &:hover{
         animation-name: border-contrast-blur;
         animation-duration: 0.3s;
         animation-fill-mode: forwards;
-        background-color: $color-dark;
+        background-color: inherit;
       }
     }
     & > .container{
@@ -30,5 +31,5 @@
   }
 }
 .test{
-  height: 100px;
+  width: 100px;
 }
