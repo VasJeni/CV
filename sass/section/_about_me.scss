@@ -22,12 +22,13 @@
     text-align: left;
     background-color: $color-light-grey;
     padding: 0 15px;
-    & > span {
+    & > p {
       width: 100%;
       padding-top: 30px;
       display: block;
       background-color: $color-light-grey;
       color: $primary-text-color;
+      @extend %font-normal;
     }
   }
   &--item{

@@ -30,11 +30,13 @@
     & > form {
      & > label {
        width: 100%;
-       & > span {
+       & > p {
          text-align: left;
          display: block;
          line-height: 2em;
          color: $Primary-color-white;
+         @extend %font-bold;
+         font-size: 18px;
        }
        & > input {
          display: block;
