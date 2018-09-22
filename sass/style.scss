@@ -1,5 +1,4 @@
-/*
-@import "core/_reset.scss";
+/*@import "core/_reset.scss";*/
 @import "core/_container.scss";
 @import "core/_base.scss"; //need delete .test
 @import "core/_sprite.scss";
@@ -15,8 +14,4 @@
 @import "section/_portfolio.scss";
 @import "section/_contact.scss";
 @import "section/_footer.scss";
-@import "core/_animation.scss";*/
-.test{
-  width: 100px;
-  height: 100px;
-}
+@import "core/_animation.scss";
