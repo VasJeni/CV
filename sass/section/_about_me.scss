@@ -1,5 +1,8 @@
 .vj_about-me{
   background-color: $color-light-grey;
+  &--img{
+    width: 33%;
+  }
   & > .container{
     display: flex;
     flex-direction: row;
@@ -18,6 +21,7 @@
     margin-left: 5%;
     text-align: left;
     background-color: $color-light-grey;
+    padding: 0 15px;
     & > span {
       width: 100%;
       padding-top: 30px;
