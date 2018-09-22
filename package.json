@@ -8,7 +8,10 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "static-eval": "^2.0.0"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-file-include": "^2.0.1",
