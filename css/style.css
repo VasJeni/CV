@@ -250,7 +250,6 @@ button:hover {
 }
 
 .vj_about-me--list > figure > .icon-web_design {
-  background-image: url(sprite.png);
   background-position: -41px 0px;
   width: 36px;
   height: 36px;
@@ -258,7 +257,6 @@ button:hover {
 }
 
 .vj_about-me--list > figure > .icon-g_design {
-  background-image: url(sprite.png);
   background-position: 0px -41px;
   width: 31px;
   height: 45px;
@@ -266,7 +264,6 @@ button:hover {
 }
 
 .vj_about-me--list > figure > .icon-o_marketing {
-  background-image: url(sprite.png);
   background-position: -41px 0px;
   width: 36px;
   height: 36px;
@@ -274,7 +271,6 @@ button:hover {
 }
 
 .vj_about-me--list > figure > .icon-seo {
-  background-image: url(sprite.png);
   background-position: -77px 0px;
   width: 37px;
   height: 35px;
