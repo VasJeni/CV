@@ -1,3 +1,4 @@
+<a name="contact"></a>
 <div class="vj_contacts">
     <div class="container">
         <div class="vj_contacts__wrapper">
@@ -17,24 +18,24 @@
                 </p>
             </div>
             <div class="vj_contacts__form">
-                <form action="">
+                <form action="validator.php" method="post">
                     <label>
                         <p>
                             Name *
                         </p>
-                        <input type="text" maxlength="20">
+                        <input type="text" maxlength="20" name="name">
                     </label>
                     <label>
                         <p>
                             Email Address *
                         </p>
-                        <input type="email" maxlength="45">
+                        <input type="email" maxlength="45" name="email">
                     </label>
                     <label>
                         <p>
                             Comments
                         </p>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <textarea id="" cols="30" rows="10" name="comments"></textarea>
                     </label>
                     <button class="submit-form"><p>send</p></button>
                 </form>

@@ -10,6 +10,7 @@
     </head>
     <body>
 
+<p><a name="home"></a></p>
 <header class="vj__header">
     <div class="container">
         <h1>Front-end Dev</h1>
@@ -19,13 +20,13 @@
 <section class="vj__nav">
     <div class="container">
         <nav class="vj__nav__list">
-            <a href="#">home</a>
-            <a href="#">About Me</a>
-            <a href="#">Skills</a>
-            <a href="#">Resume</a>
-            <a href="#">Testimonials</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact Me</a>
+            <a href="#home">home</a>
+            <a href="#about-me">About Me</a>
+            <a href="#skill">Skills</a>
+            <a href="#resume">Resume</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact Me</a>
         </nav>
     </div>
 </section>
@@ -60,6 +61,7 @@
         </div>
     </div>
 </section>
+<a name="about-me"></a>
 <div class="vj_about-me">
     <div class="container">
         <div class="vj_about-me--img">
@@ -104,6 +106,7 @@
         </div>
     </div>
 </div>
+<a name="skill"></a>
 <div class="vj__skill">
     <div class="container clearfix">
         <div class="vj__skill-description">
@@ -140,6 +143,7 @@
         </div>
     </div>
 </div>
+<a name="resume"></a>
 <section class="vj__resume">
     <div class="container">
         <div class="vj__resume__wrapper">
@@ -236,6 +240,7 @@
         </div>
     </div>
 </section>
+<a name="testimonials"></a>
 <div class="vj_review">
     <div class="container">
         <div class="vj_review__wrapper">
@@ -270,6 +275,7 @@
 </div>
 <section class="vj_portfolio">
     <div class="container">
+        <a name="portfolio"></a>
         <div class="vj_portfolio__wrapper">
             <h3>Portfolio</h3>
             <p>
@@ -283,6 +289,7 @@
         </div>
     </div>
 </section>
+<a name="contact"></a>
 <div class="vj_contacts">
     <div class="container">
         <div class="vj_contacts__wrapper">
@@ -302,24 +309,24 @@
                 </p>
             </div>
             <div class="vj_contacts__form">
-                <form action="">
+                <form action="validator.php" method="post">
                     <label>
                         <p>
                             Name *
                         </p>
-                        <input type="text" maxlength="20">
+                        <input type="text" maxlength="20" name="name">
                     </label>
                     <label>
                         <p>
                             Email Address *
                         </p>
-                        <input type="email" maxlength="45">
+                        <input type="email" maxlength="45" name="email">
                     </label>
                     <label>
                         <p>
                             Comments
                         </p>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <textarea id="" cols="30" rows="10" name="comments"></textarea>
                     </label>
                     <button class="submit-form"><p>send</p></button>
                 </form>
