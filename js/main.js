@@ -9,7 +9,7 @@ function ajaxGet() {
     var email = document.getElementById('email').value;
     var comments = document.getElementById('comments').value;
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', '../php/validator.php?name='+ name + "&email=" + email + "&comments=" + comments , true);
+    xhr.open('GET', '../php/main.php?name='+ name + "&email=" + email + "&comments=" + comments , true);
     xhr.send();
     xhr.onreadystatechange = function () {
         if(xhr.readyState != 4 )return;
