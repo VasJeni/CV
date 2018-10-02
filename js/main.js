@@ -20,7 +20,6 @@ function ajaxGet() {
             console.log(xhr.responseText)
         }
     }
-    
 }
 /*
 function sendForm() {
