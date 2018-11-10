@@ -6,6 +6,7 @@
   & > .container{
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
   &--title{
     padding-top: 50px;
@@ -68,20 +69,22 @@
       &> .icon-web_design{
         @include sprite($humans);
         background-image: url("../images/sprite.png");
+        min-width: 36px;
       }
       &> .icon-g_design{
         @include sprite($pancil);
         background-image: url("../images/sprite.png");
-
+        min-width: 36px;
       }
       &> .icon-o_marketing{
-        @include sprite($humans);
+        @include sprite($planet);
         background-image: url("../images/sprite.png");
-
+        min-width: 41px;
       }
       &> .icon-seo{
         @include sprite($seo);
         background-image: url("../images/sprite.png");
+        min-width: 36px;
       }
   }
   }
